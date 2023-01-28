@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:healthcare_system/pages/otp_page.dart';
+import 'package:healthcare_system/services/authclass.dart';
 
 class PhonePage extends StatefulWidget {
   const PhonePage({Key? key}) : super(key: key);
@@ -11,6 +12,11 @@ class PhonePage extends StatefulWidget {
 
 class _PhonePageState extends State<PhonePage> {
   bool phoneValid = false;
+  AuthClass authClass = AuthClass();
+
+  TextEditingController phoneController = TextEditingController();
+  String verificationIdFinal = "";
+  String smsCode = "";
 
   @override
   Widget build(BuildContext context) {

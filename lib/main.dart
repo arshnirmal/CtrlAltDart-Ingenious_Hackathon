@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import './pages/phone_page.dart';
+import 'package:healthcare_system/pages/phone_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
