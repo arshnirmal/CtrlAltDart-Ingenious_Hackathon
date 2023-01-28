@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:healthcare_system/pages/otp_page.dart';
 
 class PhonePage extends StatefulWidget {
   const PhonePage({Key? key}) : super(key: key);
@@ -28,25 +28,30 @@ class _PhonePageState extends State<PhonePage> {
               mainAxisSize: MainAxisSize.max,
               children: <Widget>[
                 SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.1,
-                ),
-                Text(
-                  "Welcome !",
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 48,
-                    fontWeight: FontWeight.bold,
-                    fontStyle: FontStyle.italic,
-                    fontFamily: GoogleFonts.openSans().fontFamily,
-                  ),
+                  height: MediaQuery.of(context).size.height * 0.05,
                 ),
                 Image(
-                  image: const AssetImage("assets/images/auth2.png"),
+                  image: const AssetImage("assets/images/auth1.png"),
                   height: MediaQuery.of(context).size.height * 0.4,
                   width: MediaQuery.of(context).size.width * 0.8,
                 ),
+                const Text(
+                  "Registration",
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const Text(
+                  "Enter your phone number!",
+                  style: TextStyle(
+                    color: Color.fromARGB(177, 23, 21, 21),
+                    fontSize: 18,
+                  ),
+                ),
                 const SizedBox(
-                  height: 50,
+                  height: 40,
                 ),
                 phoneNumber(),
                 const SizedBox(
@@ -85,14 +90,15 @@ class _PhonePageState extends State<PhonePage> {
           color: Colors.black,
           fontWeight: FontWeight.bold,
         ),
-        inputFormatters: [
+        inputFormatters: <TextInputFormatter>[
+          FilteringTextInputFormatter.digitsOnly,
           LengthLimitingTextInputFormatter(10),
         ],
         decoration: InputDecoration(
           hintText: "Phone Number",
           hintStyle: const TextStyle(
             color: Colors.grey,
-            fontSize: 18,
+            fontSize: 21,
             fontWeight: FontWeight.normal,
           ),
           enabledBorder: const OutlineInputBorder(
@@ -155,7 +161,12 @@ class _PhonePageState extends State<PhonePage> {
       child: ElevatedButton(
         onPressed: () {
           phoneValid
-              ? Navigator.pushNamed(context, "/otp")
+              ? Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const OtpPage(),
+                  ),
+                )
               : ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
                     content: Text(
