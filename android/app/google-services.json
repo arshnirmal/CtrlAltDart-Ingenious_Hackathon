@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "979686595794",
+    "firebase_url": "https://healthcare-app-c7127-default-rtdb.firebaseio.com",
+    "project_id": "healthcare-app-c7127",
+    "storage_bucket": "healthcare-app-c7127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979686595794:android:31a543751413db01f0610b",
+        "android_client_info": {
+          "package_name": "com.example.healthcare_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979686595794-a1s3tt6e05b7e6d4ckb0p1e2q4741o44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJXiud5c20lYpM8oh6an9UOAaDqfIt49E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979686595794-a1s3tt6e05b7e6d4ckb0p1e2q4741o44.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "979686595794-vr9a5rv7maeen7fob4ip4lohlabhl429.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.healthcareApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979686595794:android:cc828e56a00be85bf0610b",
+        "android_client_info": {
+          "package_name": "com.example.healthcare_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979686595794-a1s3tt6e05b7e6d4ckb0p1e2q4741o44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJXiud5c20lYpM8oh6an9UOAaDqfIt49E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979686595794-a1s3tt6e05b7e6d4ckb0p1e2q4741o44.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "979686595794-vr9a5rv7maeen7fob4ip4lohlabhl429.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.healthcareApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
