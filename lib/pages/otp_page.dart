@@ -17,7 +17,7 @@ class _OtpPageState extends State<OtpPage> {
   int secondsRemaining = 30;
   bool enableResend = false;
   Timer? timer;
-  TextEditingController phoneController = TextEditingController();
+  TextEditingController otpController = TextEditingController();
   AuthClass authClass = AuthClass();
   String verificationIdFinal = "";
   String smsCode = "";
@@ -131,10 +131,13 @@ class _OtpPageState extends State<OtpPage> {
       ),
       fieldStyle: FieldStyle.box,
       textFieldAlignment: MainAxisAlignment.spaceAround,
+      controller: OtpFieldController(),
       onCompleted: (pin) {
-        setState(() {
-          smsCode = pin;
-        });
+        setState(
+          () {
+            smsCode = pin;
+          },
+        );
       },
     );
   }

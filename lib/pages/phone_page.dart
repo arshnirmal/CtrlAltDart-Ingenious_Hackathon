@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:healthcare_system/pages/otp_page.dart';
-import 'package:healthcare_system/services/authclass.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class PhonePage extends StatefulWidget {
   const PhonePage({Key? key}) : super(key: key);
@@ -11,11 +10,12 @@ class PhonePage extends StatefulWidget {
 }
 
 class _PhonePageState extends State<PhonePage> {
+  // bool isKeyboardVisible = false;
+  // late final ScrollController scrollController;
   bool phoneValid = false;
-  AuthClass authClass = AuthClass();
-
+  FirebaseAuth auth = FirebaseAuth.instance;
   TextEditingController phoneController = TextEditingController();
-  String verificationIdFinal = "";
+  String verificationId = "";
   String smsCode = "";
 
   @override
@@ -91,6 +91,7 @@ class _PhonePageState extends State<PhonePage> {
                   },
                 );
         },
+        controller: phoneController,
         style: const TextStyle(
           fontSize: 24,
           color: Colors.black,
@@ -167,12 +168,7 @@ class _PhonePageState extends State<PhonePage> {
       child: ElevatedButton(
         onPressed: () {
           phoneValid
-              ? Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const OtpPage(),
-                  ),
-                )
+              ? verifyPhone()
               : ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
                     content: Text(
@@ -200,4 +196,113 @@ class _PhonePageState extends State<PhonePage> {
       ),
     );
   }
+
+  void verifyPhone() async {
+    auth.verifyPhoneNumber(
+      phoneNumber: '+91 ${phoneController.text.toString().trim()}',
+      verificationCompleted: (PhoneAuthCredential credential) async {
+        await auth.signInWithCredential(credential).then(
+          (value) {
+            showMessageBar("Phone number verified successfully");
+          },
+        );
+      },
+      verificationFailed: (FirebaseAuthException e) {
+        showMessageBar(e.message!);
+      },
+      codeSent: (String verificationId, int? resendToken) {
+        verificationId = verificationId;
+        setState(() {});
+      },
+      codeAutoRetrievalTimeout: (String verificationId) {},
+    );
+  }
+
+  void showMessageBar(String text) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(
+          text,
+          style: const TextStyle(
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: Colors.black,
+      ),
+    );
+  }
+
+  // void setData(String verificationId) {
+  //   setState(
+  //     () {
+  //       verificationIdFinal = verificationId;
+  //     },
+  //   );
+  // }
+
+  // void verifyPhone() async {
+  //   try {
+  //     await auth.verifyPhoneNumber(
+  //       phoneNumber: "+91 ${phoneController.text}",
+  //       verificationCompleted: (PhoneAuthCredential credential) async {
+  //         await auth.signInWithCredential(credential);
+  //       },
+  //       verificationFailed: (FirebaseAuthException e) {
+  //         if (e.code == 'invalid-phone-number') {
+  //           ScaffoldMessenger.of(context).showSnackBar(
+  //             const SnackBar(
+  //               content: Text(
+  //                 "Enter a valid phone number",
+  //                 style: TextStyle(
+  //                   color: Colors.white,
+  //                 ),
+  //               ),
+  //               backgroundColor: Colors.black,
+  //             ),
+  //           );
+  //         }
+  //       },
+  //       codeSent: (String verificationId, int? resendToken) {
+  //         setState(
+  //           () {
+  //             verificationIdFinal = verificationId;
+  //           },
+  //         );
+  //       },
+  //       codeAutoRetrievalTimeout: (String verificationId) {
+  //         setState(
+  //           () {
+  //             verificationIdFinal = verificationId;
+  //           },
+  //         );
+  //       },
+  //     );
+  //   } catch (e) {
+  //     ScaffoldMessenger.of(context).showSnackBar(
+  //       SnackBar(
+  //         content: Text(
+  //           e.toString(),
+  //           style: const TextStyle(
+  //             color: Colors.white,
+  //           ),
+  //         ),
+  //         backgroundColor: Colors.black,
+  //       ),
+  //     );
+  //   }
+  // }
+
+  // Future<void> _scrollToBottomOnKeyboardOpen() async {
+  //   while (!isKeyboardVisible) {
+  //     await Future.delayed(const Duration(milliseconds: 50));
+  //   }
+
+  //   await Future.delayed(const Duration(milliseconds: 250));
+
+  //   await scrollController.animateTo(
+  //     scrollController.position.maxScrollExtent,
+  //     duration: const Duration(milliseconds: 250),
+  //     curve: Curves.easeIn,
+  //   );
+  // }
 }
