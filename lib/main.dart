@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:healthcare_system/services/authclass.dart';
-import 'package:healthcare_system/pages/login/phone_page.dart';
 
 import 'firebase_options.dart';
 
@@ -48,28 +47,28 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        fontFamily: GoogleFonts.poppins().fontFamily,
-      ),
-      defaultTransition: Transition.fade,
-      // home: const PhonePage(),
-      home: const Scaffold(
-        body: Center(
-          child: CircularProgressIndicator(),
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          fontFamily: GoogleFonts.poppins().fontFamily,
         ),
-      )
-      // home: Scaffold(
-      //   appBar: AppBar(
-      //     title: const Text("Firebase Auth"),
-      //   ),
-      //   body: Center(
-      //     child: ElevatedButton(
-      //       onPressed: signup,
-      //       child: const Text("Sign Up"),
-      //     ),
-      //   ),
-      // ),
-    );
+        defaultTransition: Transition.fade,
+        // home: const PhonePage(),
+        home: const Scaffold(
+          body: Center(
+            child: CircularProgressIndicator(),
+          ),
+        )
+        // home: Scaffold(
+        //   appBar: AppBar(
+        //     title: const Text("Firebase Auth"),
+        //   ),
+        //   body: Center(
+        //     child: ElevatedButton(
+        //       onPressed: signup,
+        //       child: const Text("Sign Up"),
+        //     ),
+        //   ),
+        // ),
+        );
   }
 }

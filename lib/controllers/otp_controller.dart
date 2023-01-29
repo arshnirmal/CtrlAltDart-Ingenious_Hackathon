@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:healthcare_system/pages/profile_page.dart';
+import 'package:healthcare_system/pages/profile/profile_page.dart';
 import 'package:healthcare_system/services/authclass.dart';
 
 class OTPController extends GetxController {
