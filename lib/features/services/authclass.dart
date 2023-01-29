@@ -3,14 +3,11 @@ import 'package:get/get.dart';
 import 'package:healthcare_system/pages/login/phone_page.dart';
 import 'package:healthcare_system/pages/profile/profile_page.dart';
 
-// import 'exceptions/login_with_email_and_pssword_failure.dart';
-// import 'exceptions/signup_email_password_failure.dart';
-
 class AuthenticationRepository extends GetxController {
   static AuthenticationRepository get instance => Get.find();
 
   final _auth = FirebaseAuth.instance;
-  late final Rx<User?> firebaseUser;
+  late Rx<User?> firebaseUser;
   var verificationId = ''.obs;
 
   @override

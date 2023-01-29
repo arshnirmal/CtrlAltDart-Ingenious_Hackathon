@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:healthcare_system/services/authclass.dart';
+import 'package:healthcare_system/features/services/authclass.dart';
 
 import 'firebase_options.dart';
 

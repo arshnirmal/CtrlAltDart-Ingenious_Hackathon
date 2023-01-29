@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:healthcare_system/pages/login/otp_page.dart';
-import 'package:healthcare_system/controllers/phone_controller.dart';
+import 'package:healthcare_system/features/controllers/phone_controller.dart';
 
 class PhonePage extends StatefulWidget {
   const PhonePage({Key? key}) : super(key: key);

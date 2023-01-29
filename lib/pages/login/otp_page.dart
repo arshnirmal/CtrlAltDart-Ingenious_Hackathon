@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:otp_text_field/otp_text_field.dart';
 import 'package:otp_text_field/style.dart';
-import 'package:healthcare_system/controllers/otp_controller.dart';
+import 'package:healthcare_system/features/controllers/otp_controller.dart';
 
 class OtpPage extends StatefulWidget {
   const OtpPage({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:healthcare_system/services/authclass.dart';
+import 'package:healthcare_system/features/services/authclass.dart';
 
 class SignUpController extends GetxController {
   static SignUpController get instance => Get.find();
