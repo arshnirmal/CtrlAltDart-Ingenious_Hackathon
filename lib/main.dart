@@ -2,17 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:healthcare_system/pages/phone_page.dart';
 import 'package:healthcare_system/services/authclass.dart';
+import 'package:healthcare_system/pages/login/phone_page.dart';
 
 import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform).then((value) => Get.put(AuthClass()));
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
+      .then((value) => Get.put(AuthenticationRepository()));
   runApp(const MyApp());
 }
+
 // Future<void> main() async {
 //   WidgetsFlutterBinding.ensureInitialized();
 //   await Firebase.initializeApp();
@@ -32,27 +33,32 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  void signup() async {
-    try {
-      await FirebaseAuth.instance.createUserWithEmailAndPassword(
-        email: "abc@gmail.com",
-        password: "abc123",
-      );
-    } catch (e) {
-      // ignore: avoid_print
-      print(e);
-    }
-  }
+  // void signup() async {
+  //   try {
+  //     await FirebaseAuth.instance.createUserWithEmailAndPassword(
+  //       email: "abc@gmail.com",
+  //       password: "abc123",
+  //     );
+  //   } catch (e) {
+  //     // ignore: avoid_print
+  //     print(e);
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: GoogleFonts.poppins().fontFamily,
       ),
-      darkTheme: ThemeData.dark(),
-      home: const PhonePage(),
+      defaultTransition: Transition.fade,
+      // home: const PhonePage(),
+      home: const Scaffold(
+        body: Center(
+          child: CircularProgressIndicator(),
+        ),
+      )
       // home: Scaffold(
       //   appBar: AppBar(
       //     title: const Text("Firebase Auth"),

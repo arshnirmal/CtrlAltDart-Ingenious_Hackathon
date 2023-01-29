@@ -1,10 +1,9 @@
-// ignore_for_file: unused_element
-
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:otp_text_field/otp_text_field.dart';
 import 'package:otp_text_field/style.dart';
-import 'package:healthcare_system/services/authclass.dart';
+import 'package:healthcare_system/controllers/otp_controller.dart';
 
 class OtpPage extends StatefulWidget {
   const OtpPage({Key? key}) : super(key: key);
@@ -17,10 +16,8 @@ class _OtpPageState extends State<OtpPage> {
   int secondsRemaining = 30;
   bool enableResend = false;
   Timer? timer;
-  TextEditingController otpController = TextEditingController();
-  AuthClass authClass = AuthClass();
-  String verificationIdFinal = "";
-  String smsCode = "";
+  var otpController = Get.put(OTPController());
+  var smsCode = '';
 
   @override
   Widget build(BuildContext context) {
@@ -131,11 +128,11 @@ class _OtpPageState extends State<OtpPage> {
       ),
       fieldStyle: FieldStyle.box,
       textFieldAlignment: MainAxisAlignment.spaceAround,
-      controller: OtpFieldController(),
-      onCompleted: (pin) {
+      onCompleted: (code) {
         setState(
           () {
-            smsCode = pin;
+            smsCode = code;
+            OTPController.instance.verifyOTP(smsCode);
           },
         );
       },
@@ -180,7 +177,9 @@ class _OtpPageState extends State<OtpPage> {
       width: MediaQuery.of(context).size.width * 0.25,
       height: 50,
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () {
+          OTPController.instance.verifyOTP(smsCode);
+        },
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color.fromARGB(255, 45, 65, 252),
           shape: const StadiumBorder(),
@@ -227,11 +226,11 @@ class _OtpPageState extends State<OtpPage> {
         enableResend = false;
       },
     );
+  }
 
-    @override
-    dispose() {
-      timer?.cancel();
-      super.dispose();
-    }
+  @override
+  dispose() {
+    timer?.cancel();
+    super.dispose();
   }
 }

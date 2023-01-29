@@ -1,97 +1,95 @@
-// ignore_for_file: avoid_print, use_build_context_synchronously
-
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:healthcare_system/pages/phone_page.dart';
+import 'package:get/get.dart';
+import 'package:healthcare_system/pages/login/phone_page.dart';
+import 'package:healthcare_system/pages/profile_page.dart';
 
-class AuthClass {
-  final FirebaseAuth _auth = FirebaseAuth.instance;
+// import 'exceptions/login_with_email_and_pssword_failure.dart';
+// import 'exceptions/signup_email_password_failure.dart';
 
-  final storage = const FlutterSecureStorage();
+class AuthenticationRepository extends GetxController {
+  static AuthenticationRepository get instance => Get.find();
 
-  // void storeTokenAndData(UserCredential userCredential) async {
-  //   print("storing token and data");
-  //   await storage.write(
-  //     key: "token",
-  //     value: userCredential.credential?.token.toString(),
-  //   );
-  //   await storage.write(
-  //     key: "usercredential",
-  //     value: userCredential.toString(),
-  //   );
-  // }
+  final _auth = FirebaseAuth.instance;
+  late final Rx<User?> firebaseUser;
+  var verificationId = ''.obs;
 
-  // Future<String?> getToken() async {
-  //   return await storage.read(
-  //     key: "token",
-  //   );
-  // }
-
-  Future<void> verifyPhoneNumber(
-      String phoneNumber, BuildContext context, Function setData) async {
-    verificationCompleted(PhoneAuthCredential phoneAuthCredential) async {
-      showSnackBar(context, "Verification Completed");
-    }
-
-    verificationFailed(FirebaseAuthException exception) {
-      showSnackBar(context, exception.toString());
-    }
-
-    codeSent(String verificationID, [int? forceResnedingtoken]) {
-      showSnackBar(context, "Verification Code sent on the phone number");
-      setData(verificationID);
-    }
-
-    codeAutoRetrievalTimeout(String verificationID) {
-      showSnackBar(context, "Time out");
-    }
-
-    try {
-      await _auth.verifyPhoneNumber(
-        timeout: const Duration(seconds: 60),
-        phoneNumber: phoneNumber,
-        verificationCompleted: verificationCompleted,
-        verificationFailed: verificationFailed,
-        codeSent: codeSent,
-        codeAutoRetrievalTimeout: codeAutoRetrievalTimeout,
-      );
-    } catch (e) {
-      showSnackBar(context, e.toString());
-    }
+  @override
+  void onReady() {
+    firebaseUser = Rx<User?>(_auth.currentUser);
+    firebaseUser.bindStream(_auth.userChanges());
+    ever(firebaseUser, _setInitialScreen);
   }
 
-  // Future<void> signInwithPhoneNumber(
-  //   String verificationId,
-  //   String smsCode,
-  //   BuildContext context,
-  // ) async {
+  _setInitialScreen(User? user) {
+    user == null
+        ? Get.offAll(
+            () => const PhonePage(),
+          )
+        : Get.offAll(
+            () => const ProfilePage(),
+          );
+  }
+
+  Future<void> verifyPhoneNumber(String phoneNumber) async {
+    await _auth.verifyPhoneNumber(
+      phoneNumber: '+91 $phoneNumber',
+      verificationCompleted: (PhoneAuthCredential credential) async {
+        await _auth.signInWithCredential(credential);
+      },
+      verificationFailed: (FirebaseAuthException e) {
+        Get.showSnackbar(
+          GetSnackBar(
+            title: e.code,
+            message: e.message!,
+            snackPosition: SnackPosition.BOTTOM,
+          ),
+        );
+      },
+      codeSent: (verificationId, resendToken) {
+        this.verificationId.value = verificationId;
+      },
+      codeAutoRetrievalTimeout: (verificationId) {
+        this.verificationId.value = verificationId;
+      },
+    );
+  }
+
+  Future<bool> verifyOTP(String otp) async {
+    var credential = await _auth.signInWithCredential(
+      PhoneAuthProvider.credential(
+        verificationId: verificationId.value,
+        smsCode: otp,
+      ),
+    );
+    return credential.user != null ? true : false;
+  }
+  //FUNC
+  // Future<String?> createUserWithEmailAndPassword(String email, String password) async {
   //   try {
-  //     AuthCredential credential = PhoneAuthProvider.credential(
-  //       verificationId: verificationId,
-  //       smsCode: smsCode,
-  //     );
-  //     UserCredential userCredential = await _auth.signInWithCredential(
-  //       credential,
-  //     );
-  //     storeTokenAndData(
-  //       userCredential,
-  //     );
-  //     Navigator.pushAndRemoveUntil(
-  //       context,
-  //       MaterialPageRoute(
-  //         builder: (builder) => const PhonePage(),
-  //       ),
-  //       (route) => false,
-  //     );
-  //     showSnackBar(context, "logged In");
-  //   } catch (e) {
-  //     showSnackBar(context, e.toString());
+  //     await _auth.createUserWithEmailAndPassword(email: email, password: password);
+  //     firebaseUser.value != null ? Get.offAll(() => const Dashboard()) : Get.to(() => const WelcomeScreen());
+  //   } on FirebaseAuthException catch (e) {
+  //     final ex = SignUpWithEmailAndPasswordFailure.code(e.code);
+  //     return ex.message;
+  //   } catch (_) {
+  //     const ex = SignUpWithEmailAndPasswordFailure();
+  //     return ex.message;
   //   }
+  //   return null;
   // }
 
-  void showSnackBar(BuildContext context, String text) {
-    final snackBar = SnackBar(content: Text(text));
-    ScaffoldMessenger.of(context).showSnackBar(snackBar);
-  }
+  // Future<String?> loginWithEmailAndPassword(String email, String password) async {
+  //   try {
+  //     await _auth.signInWithEmailAndPassword(email: email, password: password);
+  //   } on FirebaseAuthException catch (e) {
+  //     final ex = LogInWithEmailAndPasswordFailure.fromCode(e.code);
+  //     return ex.message;
+  //   } catch (_) {
+  //     const ex = LogInWithEmailAndPasswordFailure();
+  //     return ex.message;
+  //   }
+  //   return null;
+  // }
+
+  Future<void> logout() async => await _auth.signOut();
 }
