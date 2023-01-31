@@ -3,13 +3,17 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:healthcare_system/features/services/authclass.dart';
-
 import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
-      .then((value) => Get.put(AuthenticationRepository()));
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  ).then(
+    (value) => Get.put(
+      AuthenticationRepository(),
+    ),
+  );
   runApp(const MyApp());
 }
 
@@ -47,28 +51,18 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          fontFamily: GoogleFonts.poppins().fontFamily,
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: GoogleFonts.poppins().fontFamily,
+      ),
+      // darkTheme: ThemeData.dark(),
+      // home: const PhonePage(),
+      
+      home: const Center(
+        child: CircularProgressIndicator(
+          color: Colors.white,
         ),
-        defaultTransition: Transition.fade,
-        // home: const PhonePage(),
-        home: const Scaffold(
-          body: Center(
-            child: CircularProgressIndicator(),
-          ),
-        )
-        // home: Scaffold(
-        //   appBar: AppBar(
-        //     title: const Text("Firebase Auth"),
-        //   ),
-        //   body: Center(
-        //     child: ElevatedButton(
-        //       onPressed: signup,
-        //       child: const Text("Sign Up"),
-        //     ),
-        //   ),
-        // ),
-        );
+      ),
+    );
   }
 }

@@ -15,9 +15,15 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
-  String gender = "M";
+  String gender = "Male";
   String name = "Arsh Nirmal";
   String email = "abcd@gm.com";
+  String age = "20";
+  String height = "5'10";
+  String weight = "70";
+  String bloodGroup = "O+";
+  String dob = "20/10/2000";
+  String aadhaar = "1234-1234-1234";
   int length = 10;
 
   @override
@@ -127,12 +133,12 @@ class _ProfilePageState extends State<ProfilePage> {
                     physics: const BouncingScrollPhysics(),
                     shrinkWrap: true,
                     children: [
-                      informationGrid("Gender :", "Male"),
-                      informationGrid("Age :", "20"),
-                      informationGrid("Height :", "5'10"),
-                      informationGrid("Weight :", "70"),
-                      informationGrid("Blood Group :", "O+"),
-                      informationGrid("DOB :", "20/10/2000"),
+                      informationGrid("Gender :", gender),
+                      informationGrid("Age :", age),
+                      informationGrid("Height :", height),
+                      informationGrid("Weight :", weight),
+                      informationGrid("Blood Group :", bloodGroup),
+                      informationGrid("DOB :", dob),
                     ],
                   ),
                 ),
@@ -144,8 +150,8 @@ class _ProfilePageState extends State<ProfilePage> {
                     color: const Color.fromARGB(255, 221, 221, 221),
                   ),
                   child: Column(
-                    children: const [
-                      Align(
+                    children: [
+                      const Align(
                         alignment: Alignment.topLeft,
                         child: Padding(
                           padding: EdgeInsets.only(
@@ -165,8 +171,8 @@ class _ProfilePageState extends State<ProfilePage> {
                       Align(
                         alignment: Alignment.center,
                         child: Text(
-                          "1234-1234-1234",
-                          style: TextStyle(
+                          aadhaar,
+                          style: const TextStyle(
                             fontSize: 26,
                             fontWeight: FontWeight.bold,
                             color: Colors.black,

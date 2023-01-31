@@ -6,6 +6,7 @@ class FireStoreService {
 
   Future<void> setData(String path, Map<String, dynamic> data) async {
     final reference = FirebaseFirestore.instance.collection("Users").doc(path);
+    // ignore: avoid_print
     print('$path: $data');
     await reference.set(data);
   }
