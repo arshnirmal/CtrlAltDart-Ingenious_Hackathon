@@ -1,0 +1,264 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.healthcare_system"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+16-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+17
+18    <application
+19        android:name="io.flutter.app.FlutterMultiDexApplication"
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.8.0] /home/arshnirmal/.gradle/caches/transforms-3/4bf7677f9c4e02e30f98fff67fdd2a83/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+23        android:label="healthcare_system" >
+24        <activity
+25            android:name="com.example.healthcare_system.MainActivity"
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27            android:exported="true"
+28            android:hardwareAccelerated="true"
+29            android:launchMode="singleTop"
+30            android:theme="@style/LaunchTheme"
+31            android:windowSoftInputMode="adjustResize" >
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+40                android:name="io.flutter.embedding.android.NormalTheme"
+41                android:resource="@style/NormalTheme" />
+42
+43            <intent-filter>
+44                <action android:name="android.intent.action.MAIN" />
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+54            android:name="flutterEmbedding"
+55            android:value="2" />
+56
+57        <service
+57-->[:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:26:13-37
+61            <meta-data
+61-->[:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.appcheck.FlutterFirebaseAppRegistrar"
+62-->[:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+64            <meta-data
+64-->[:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+65-->[:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+67            <meta-data
+67-->[:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+68-->[:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+70            <meta-data
+70-->[:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+71-->[:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:27:13-29:85
+74                android:name="com.google.firebase.components:com.google.firebase.appcheck.safetynet.FirebaseAppCheckSafetyNetRegistrar"
+74-->[com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:28:17-136
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:29:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:27:13-29:85
+77                android:name="com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar"
+77-->[com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:28:17-128
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:29:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:27:13-29:85
+80                android:name="com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar"
+80-->[com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:28:17-144
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:29:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:27:13-29:85
+83                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+83-->[com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:28:17-117
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:29:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+86                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+86-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:19:13-21:85
+89                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+89-->[com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:20:17-111
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:21:17-82
+91        </service>
+92
+93        <provider
+93-->[:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+94            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+94-->[:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+95            android:authorities="com.example.healthcare_system.flutter.image_provider"
+95-->[:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+96            android:exported="false"
+96-->[:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+97            android:grantUriPermissions="true" >
+97-->[:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+98            <meta-data
+98-->[:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+100                android:resource="@xml/flutter_image_picker_file_paths" />
+100-->[:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+101        </provider>
+102
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+104            android:name="androidx.window.extensions"
+104-->[androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+106        <uses-library
+106-->[androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+107            android:name="androidx.window.sidecar"
+107-->[androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+109
+110        <activity
+110-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+111            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+111-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+112            android:excludeFromRecents="true"
+112-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+113            android:exported="true"
+113-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+114            android:launchMode="singleTask"
+114-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+115-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+116            <intent-filter>
+116-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+117                <action android:name="android.intent.action.VIEW" />
+117-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+117-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+119-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+120                <category android:name="android.intent.category.BROWSABLE" />
+120-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+120-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+121
+122                <data
+122-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+123                    android:host="firebase.auth"
+123-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+124                    android:path="/"
+124-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+125                    android:scheme="genericidp" />
+125-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+126            </intent-filter>
+127        </activity>
+128        <activity
+128-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+129            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+129-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+130            android:excludeFromRecents="true"
+130-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+131            android:exported="true"
+131-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+132            android:launchMode="singleTask"
+132-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+133-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+134            <intent-filter>
+134-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+135                <action android:name="android.intent.action.VIEW" />
+135-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+135-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+137-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+138                <category android:name="android.intent.category.BROWSABLE" />
+138-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+138-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+139
+140                <data
+140-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+141                    android:host="firebase.auth"
+141-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+142                    android:path="/"
+142-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+143                    android:scheme="recaptcha" />
+143-->[com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+144            </intent-filter>
+145        </activity>
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+149            android:authorities="com.example.healthcare_system.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+162    </application>
+163
+164</manifest>

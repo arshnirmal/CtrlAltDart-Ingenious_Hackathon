@@ -1,0 +1,446 @@
+-- Merging decision tree log ---
+application
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/arshnirmal/.gradle/caches/transforms-3/a240abcf6c6151a485a979301ffc786d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/arshnirmal/.gradle/caches/transforms-3/a240abcf6c6151a485a979301ffc786d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/02590aa00a4dbfc2b644e0e55b7f9a70/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/02590aa00a4dbfc2b644e0e55b7f9a70/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /home/arshnirmal/.gradle/caches/transforms-3/c4760b1e1455e4b0399465bc5b1e73db/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /home/arshnirmal/.gradle/caches/transforms-3/c4760b1e1455e4b0399465bc5b1e73db/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.0.1] /home/arshnirmal/.gradle/caches/transforms-3/0d7c8ca4c5055bfe02d5f373747795a1/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.0.1] /home/arshnirmal/.gradle/caches/transforms-3/0d7c8ca4c5055bfe02d5f373747795a1/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/arshnirmal/.gradle/caches/transforms-3/fff907332e208290fb5f3ddfcb9575a5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/arshnirmal/.gradle/caches/transforms-3/fff907332e208290fb5f3ddfcb9575a5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.8.0] /home/arshnirmal/.gradle/caches/transforms-3/4bf7677f9c4e02e30f98fff67fdd2a83/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /home/arshnirmal/.gradle/caches/transforms-3/4bf7677f9c4e02e30f98fff67fdd2a83/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arshnirmal/.gradle/caches/transforms-3/3c9d9e567633f60635ac6de2a2507958/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arshnirmal/.gradle/caches/transforms-3/3c9d9e567633f60635ac6de2a2507958/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /home/arshnirmal/.gradle/caches/transforms-3/4bf7677f9c4e02e30f98fff67fdd2a83/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_secure_storage] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.1] /home/arshnirmal/.gradle/caches/transforms-3/ed61e69260d7629d9f10980240084cea/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/bf10b1af9c290c28d42e89f073d6d0e9/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/arshnirmal/.gradle/caches/transforms-3/a240abcf6c6151a485a979301ffc786d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/02590aa00a4dbfc2b644e0e55b7f9a70/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /home/arshnirmal/.gradle/caches/transforms-3/c4760b1e1455e4b0399465bc5b1e73db/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/arshnirmal/.gradle/caches/transforms-3/8dfc1baa593c7b96322e976ce5bf8d95/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/dea9fccf2c38dcc2d7527bf3bb967034/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:integrity:1.0.1] /home/arshnirmal/.gradle/caches/transforms-3/0d7c8ca4c5055bfe02d5f373747795a1/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/arshnirmal/.gradle/caches/transforms-3/fff907332e208290fb5f3ddfcb9575a5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/arshnirmal/.gradle/caches/transforms-3/b06299739c08ef44d4f66c41f4cc4eb2/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /home/arshnirmal/.gradle/caches/transforms-3/be10945a5c13aff60200832d994969f9/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/11de2d5d9df74482fd1b841c4693e00c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/9e97bc365430d02bbdef075a4d748c98/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/e161bfcb69bdee14c2c084f33d38bd5c/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/e97fe17a0af4ab3697aa5e9e50bbcbf8/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /home/arshnirmal/.gradle/caches/transforms-3/4bf7677f9c4e02e30f98fff67fdd2a83/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/arshnirmal/.gradle/caches/transforms-3/192ddabb9f6736b4f09bbec913dee9d7/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /home/arshnirmal/.gradle/caches/transforms-3/cb47bd6beff69d5f9bb43c6ef3305215/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/66acc25d83a0e3a38641bd06cdcbb32a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/arshnirmal/.gradle/caches/transforms-3/3ba0d4a82dc3772b9ee66c9ceb866e3b/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/4f52a8f9abedfbc553df930775c0d273/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/arshnirmal/.gradle/caches/transforms-3/744eded77c95b8be5a4c1d21f04e4fca/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arshnirmal/.gradle/caches/transforms-3/3c9d9e567633f60635ac6de2a2507958/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/29435eebcb7f8f1727b77017910f38b5/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/76991ed1d80269b4150f07a295216c34/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/arshnirmal/.gradle/caches/transforms-3/ac66c7c10ee6344efa42e830faeb0262/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/arshnirmal/.gradle/caches/transforms-3/7891ac3ff42b151065add322cbe1bfb8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/arshnirmal/.gradle/caches/transforms-3/ec936724c8b22314d3ab5cae45d80efa/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/arshnirmal/.gradle/caches/transforms-3/198c72e30d754fee79218038b3ea66f5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/arshnirmal/.gradle/caches/transforms-3/32d651b4e8a4ed8012276529494bfd4b/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/arshnirmal/.gradle/caches/transforms-3/bf9e08c5b683d37a8b2772e97143550d/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.50.2] /home/arshnirmal/.gradle/caches/transforms-3/d5c9b6d91dde97c86841780d1b624650/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:2:1-11:12
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:2:5-44
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_secure_storage] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-9:53
+MERGED from [:flutter_secure_storage] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-9:53
+MERGED from [androidx.multidex:multidex:2.0.1] /home/arshnirmal/.gradle/caches/transforms-3/ed61e69260d7629d9f10980240084cea/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /home/arshnirmal/.gradle/caches/transforms-3/ed61e69260d7629d9f10980240084cea/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/bf10b1af9c290c28d42e89f073d6d0e9/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/bf10b1af9c290c28d42e89f073d6d0e9/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/arshnirmal/.gradle/caches/transforms-3/a240abcf6c6151a485a979301ffc786d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/arshnirmal/.gradle/caches/transforms-3/a240abcf6c6151a485a979301ffc786d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/02590aa00a4dbfc2b644e0e55b7f9a70/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/02590aa00a4dbfc2b644e0e55b7f9a70/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /home/arshnirmal/.gradle/caches/transforms-3/c4760b1e1455e4b0399465bc5b1e73db/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /home/arshnirmal/.gradle/caches/transforms-3/c4760b1e1455e4b0399465bc5b1e73db/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/arshnirmal/.gradle/caches/transforms-3/8dfc1baa593c7b96322e976ce5bf8d95/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/arshnirmal/.gradle/caches/transforms-3/8dfc1baa593c7b96322e976ce5bf8d95/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/dea9fccf2c38dcc2d7527bf3bb967034/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/dea9fccf2c38dcc2d7527bf3bb967034/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:integrity:1.0.1] /home/arshnirmal/.gradle/caches/transforms-3/0d7c8ca4c5055bfe02d5f373747795a1/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.0.1] /home/arshnirmal/.gradle/caches/transforms-3/0d7c8ca4c5055bfe02d5f373747795a1/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/arshnirmal/.gradle/caches/transforms-3/fff907332e208290fb5f3ddfcb9575a5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/arshnirmal/.gradle/caches/transforms-3/fff907332e208290fb5f3ddfcb9575a5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /home/arshnirmal/.gradle/caches/transforms-3/b06299739c08ef44d4f66c41f4cc4eb2/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/arshnirmal/.gradle/caches/transforms-3/b06299739c08ef44d4f66c41f4cc4eb2/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/arshnirmal/.gradle/caches/transforms-3/be10945a5c13aff60200832d994969f9/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/arshnirmal/.gradle/caches/transforms-3/be10945a5c13aff60200832d994969f9/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/11de2d5d9df74482fd1b841c4693e00c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/11de2d5d9df74482fd1b841c4693e00c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/9e97bc365430d02bbdef075a4d748c98/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/9e97bc365430d02bbdef075a4d748c98/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/e161bfcb69bdee14c2c084f33d38bd5c/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/e161bfcb69bdee14c2c084f33d38bd5c/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/e97fe17a0af4ab3697aa5e9e50bbcbf8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/e97fe17a0af4ab3697aa5e9e50bbcbf8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /home/arshnirmal/.gradle/caches/transforms-3/4bf7677f9c4e02e30f98fff67fdd2a83/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /home/arshnirmal/.gradle/caches/transforms-3/4bf7677f9c4e02e30f98fff67fdd2a83/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/arshnirmal/.gradle/caches/transforms-3/192ddabb9f6736b4f09bbec913dee9d7/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/arshnirmal/.gradle/caches/transforms-3/192ddabb9f6736b4f09bbec913dee9d7/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /home/arshnirmal/.gradle/caches/transforms-3/cb47bd6beff69d5f9bb43c6ef3305215/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /home/arshnirmal/.gradle/caches/transforms-3/cb47bd6beff69d5f9bb43c6ef3305215/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/66acc25d83a0e3a38641bd06cdcbb32a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/66acc25d83a0e3a38641bd06cdcbb32a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/arshnirmal/.gradle/caches/transforms-3/3ba0d4a82dc3772b9ee66c9ceb866e3b/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/arshnirmal/.gradle/caches/transforms-3/3ba0d4a82dc3772b9ee66c9ceb866e3b/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/4f52a8f9abedfbc553df930775c0d273/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/4f52a8f9abedfbc553df930775c0d273/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/arshnirmal/.gradle/caches/transforms-3/744eded77c95b8be5a4c1d21f04e4fca/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/arshnirmal/.gradle/caches/transforms-3/744eded77c95b8be5a4c1d21f04e4fca/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arshnirmal/.gradle/caches/transforms-3/3c9d9e567633f60635ac6de2a2507958/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arshnirmal/.gradle/caches/transforms-3/3c9d9e567633f60635ac6de2a2507958/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/29435eebcb7f8f1727b77017910f38b5/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/29435eebcb7f8f1727b77017910f38b5/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/76991ed1d80269b4150f07a295216c34/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/arshnirmal/.gradle/caches/transforms-3/76991ed1d80269b4150f07a295216c34/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/arshnirmal/.gradle/caches/transforms-3/ac66c7c10ee6344efa42e830faeb0262/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/arshnirmal/.gradle/caches/transforms-3/ac66c7c10ee6344efa42e830faeb0262/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/arshnirmal/.gradle/caches/transforms-3/7891ac3ff42b151065add322cbe1bfb8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/arshnirmal/.gradle/caches/transforms-3/7891ac3ff42b151065add322cbe1bfb8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/arshnirmal/.gradle/caches/transforms-3/ec936724c8b22314d3ab5cae45d80efa/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/arshnirmal/.gradle/caches/transforms-3/ec936724c8b22314d3ab5cae45d80efa/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/arshnirmal/.gradle/caches/transforms-3/198c72e30d754fee79218038b3ea66f5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/arshnirmal/.gradle/caches/transforms-3/198c72e30d754fee79218038b3ea66f5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/arshnirmal/.gradle/caches/transforms-3/32d651b4e8a4ed8012276529494bfd4b/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/arshnirmal/.gradle/caches/transforms-3/32d651b4e8a4ed8012276529494bfd4b/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/arshnirmal/.gradle/caches/transforms-3/bf9e08c5b683d37a8b2772e97143550d/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/arshnirmal/.gradle/caches/transforms-3/bf9e08c5b683d37a8b2772e97143550d/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.50.2] /home/arshnirmal/.gradle/caches/transforms-3/d5c9b6d91dde97c86841780d1b624650/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] /home/arshnirmal/.gradle/caches/transforms-3/d5c9b6d91dde97c86841780d1b624650/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml
+INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:flutter_secure_storage] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-50
+	android:targetSdkVersion
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml:7:5-66
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/android/app/src/debug/AndroidManifest.xml:7:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:26:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.appcheck.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_app_check] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+	android:exported
+		ADDED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+	android:resource
+		ADDED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from [:image_picker_android] /mnt/Data/arshn/Desktop/Arsh/Computer Science/Mobile Application Development/Flutter/healthcare_system/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/arshnirmal/.gradle/caches/transforms-3/3e6bbe5418e3d45248eda68b4c8389cb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.safetynet.FirebaseAppCheckSafetyNetRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/d2d4fe03f8b1b39057098e14fe2e3e8d/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:28:17-136
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/b83eae993b369dc2be8724c503b9a41f/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:28:17-128
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/ab0f135d394911b6c8e74b8cb7d4b070/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:28:17-144
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:16.1.1] /home/arshnirmal/.gradle/caches/transforms-3/592220cebbe861d11f183cebdc24f588/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:28:17-117
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:12:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /home/arshnirmal/.gradle/caches/transforms-3/d5c9b6d91dde97c86841780d1b624650/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /home/arshnirmal/.gradle/caches/transforms-3/d5c9b6d91dde97c86841780d1b624650/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/arshnirmal/.gradle/caches/transforms-3/acfb292cb6ba696e461c3b79f03ac6b7/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.2] /home/arshnirmal/.gradle/caches/transforms-3/15285201c4a802e9baa185c023f0b66e/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:20:17-111
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/arshnirmal/.gradle/caches/transforms-3/550bb0ae59d1cb82cf821c8b8a1ecc14/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/arshnirmal/.gradle/caches/transforms-3/efbe60849d2b38c78c4920b2bc0117e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/arshnirmal/.gradle/caches/transforms-3/f49ed75e6e1aa0d1152de20e2c019b7f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
